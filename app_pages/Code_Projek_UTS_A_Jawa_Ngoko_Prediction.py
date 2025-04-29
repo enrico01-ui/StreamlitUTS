@@ -1,10 +1,10 @@
 import streamlit as st
 import pandas as pd
-from utils.UTS_A_Jawa_Ngoko_data_loader import load_data
-from utils.UTS_A_Jawa_Ngoko_preprocessing import preprocess_text
-from models.UTS_A_Jawa_Ngoko_multi_label_classifiers import get_multilabel_classifier, create_vectorizer, create_multilabel_target
+from utils.Code_Projek_UTS_A_Jawa_Ngoko_data_loader import load_data
+from utils.Code_Projek_UTS_A_Jawa_Ngoko_preprocessing import preprocess_text
+from models.Code_Projek_UTS_A_Jawa_Ngoko_multi_label_classifiers import get_multilabel_classifier, create_vectorizer, create_multilabel_target
 from sklearn.model_selection import train_test_split
-from utils.UTS_A_Jawa_Ngoko_sidebar import beautify_sidebar
+from utils.Code_Projek_UTS_A_Jawa_Ngoko_sidebar import beautify_sidebar
 
 def run():
 

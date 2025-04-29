@@ -1,6 +1,6 @@
-from utils.UTS_A_Jawa_Ngoko_data_loader import load_data
+from utils.Code_Projek_UTS_A_Jawa_Ngoko_data_loader import load_data
 import streamlit as st
-from utils.UTS_A_Jawa_Ngoko_sidebar import beautify_sidebar
+from utils.Code_Projek_UTS_A_Jawa_Ngoko_sidebar import beautify_sidebar
 import importlib
 
 st.set_page_config(
@@ -98,11 +98,11 @@ if selected_page == "🏠 Main":
 else:
     
     if selected_page == "📊 Dataset Explorer":
-        page = importlib.import_module("app_pages.UTS_A_Jawa_Ngoko_dataset_explorer")
+        page = importlib.import_module("app_pages.Code_Projek_UTS_A_Jawa_Ngoko_dataset_explorer")
         page.run()
     elif selected_page == "🛠️ Model Training":
-        page = importlib.import_module("app_pages.UTS_A_Jawa_Ngoko_Model_Training")
+        page = importlib.import_module("app_pages.Code_Projek_UTS_A_Jawa_Ngoko_Model_Training")
         page.run()
     elif selected_page == "🔮 Prediction":
-        page = importlib.import_module("app_pages.UTS_A_Jawa_Ngoko_Prediction")
+        page = importlib.import_module("app_pages.Code_Projek_UTS_A_Jawa_Ngoko_Prediction")
         page.run()

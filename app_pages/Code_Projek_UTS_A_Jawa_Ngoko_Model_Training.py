@@ -3,9 +3,9 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
 from sklearn.model_selection import train_test_split
-from models.UTS_A_Jawa_Ngoko_multi_label_classifiers import get_multilabel_classifier, create_vectorizer, evaluate_multilabel_model, create_multilabel_target
-from utils.UTS_A_Jawa_Ngoko_visualization import plot_multilabel_confusion_matrix
-from utils.UTS_A_Jawa_Ngoko_sidebar import beautify_sidebar
+from models.Code_Projek_UTS_A_Jawa_Ngoko_multi_label_classifiers import get_multilabel_classifier, create_vectorizer, evaluate_multilabel_model, create_multilabel_target
+from utils.Code_Projek_UTS_A_Jawa_Ngoko_visualization import plot_multilabel_confusion_matrix
+from utils.Code_Projek_UTS_A_Jawa_Ngoko_sidebar import beautify_sidebar
 
 def run():
     st.title("🛠️ Model Training and Evaluation")

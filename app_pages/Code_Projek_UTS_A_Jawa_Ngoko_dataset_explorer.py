@@ -1,7 +1,7 @@
 import streamlit as st
 import matplotlib.pyplot as plt
-from utils.UTS_A_Jawa_Ngoko_visualization import plot_label_distribution
-from utils.UTS_A_Jawa_Ngoko_sidebar import beautify_sidebar
+from utils.Code_Projek_UTS_A_Jawa_Ngoko_visualization import plot_label_distribution
+from utils.Code_Projek_UTS_A_Jawa_Ngoko_sidebar import beautify_sidebar
 import importlib
 
 def run():
